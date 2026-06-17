@@ -40,9 +40,8 @@ SlitherMind treats slither.io as a standard reinforcement learning problem. Ever
 ## Requirements
 
 - Python 3.10+
-- [Brave Browser](https://brave.com/) installed at:  
-  `C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe`
-- ChromeDriver matching your Brave/Chromium version → [download here](https://chromedriver.chromium.org/downloads), place `chromedriver.exe` in your project folder or PATH
+- Microsoft Edge installed at: 
+  `C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe`
 
 Install Python dependencies:
 ```bash
@@ -71,7 +70,7 @@ SlitherMind/
 python train.py
 ```
 
-Two Brave windows open automatically and start playing. Training stats are printed to the console every 2048 steps.
+Two Edge windows open automatically and start playing. Training stats are printed to the console every 2048 steps.
 
 ### Resume training
 Just run `python train.py` again – if `slither_ppo_model.zip` exists it will be loaded and training continues from where it left off.
